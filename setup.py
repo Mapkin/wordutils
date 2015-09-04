@@ -28,8 +28,4 @@ setup(name='wordutils',
       extras_require={
           'test': ['pytest'],
       },
-      entry_points="""
-      [console_scripts]
-      wordutils=wordutils.scripts.cli:cli
-      """
-      )
+)
