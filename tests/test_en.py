@@ -24,6 +24,7 @@ m_spoken = {
     19: 'nineteen',
     20: 'twenty',
     35: 'thirty five',
+    41: 'forty one',
     78: 'seventy eight',
     100: 'one hundred',
     112: 'one hundred twelve',

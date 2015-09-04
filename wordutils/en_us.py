@@ -10,7 +10,7 @@ _ones_teens = ['', 'one', 'two', 'three', 'four',
          'ten', 'eleven', 'twelve', 'thirteen', 'fourteen',
          'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
 
-_tens = [None, None, 'twenty', 'thirty', 'fourty',
+_tens = [None, None, 'twenty', 'thirty', 'forty',
          'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
 
 _exponents = [None, 'thousand', 'million', 'billion', 'trillion']
