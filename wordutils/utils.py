@@ -3,7 +3,8 @@ from __future__ import division
 
 def split_num(n, s):
     """
-    Split n into groups of s numbers
+    Split n into groups of size s numbers starting from the least
+    significant digit
 
     >>> split_num(123, 2)
     [1, 23]
