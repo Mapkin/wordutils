@@ -59,15 +59,15 @@ class EnglishUS(BaseLanguage):
         "twelve sixty seven"
 
         """
-        if n > 9999:
+        if n > 9999 or n % 1000 == 0:
             return cls.number_spoken_full(n)
         if n == 0:
             return 'zero'
-        if n % 100 == 0:
-            return cls.lt_1000_spoken_full(n)
 
         groups = split_num(n, 2)
-        if len(groups) > 1 and groups[-1] < 10:
+        if len(groups) > 1 and groups[-1] == 0:
+            s = "{} hundred".format(cls.lt_1000_spoken_full(groups[0]))
+        elif len(groups) > 1 and groups[-1] < 10:
             s = "{} oh {}".format(
                 cls.lt_1000_spoken_full(groups[0]),
                 cls.lt_1000_spoken_full(groups[1])

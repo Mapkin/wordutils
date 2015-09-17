@@ -76,7 +76,10 @@ def test_en_casual():
         112: 'one twelve',
         999: 'nine ninety nine',
         302: 'three oh two',
-        1234: 'twelve thirty four', 
+        1234: 'twelve thirty four',
+        300: 'three hundred',
+        2000: 'two thousand',
+        5600: 'fifty six hundred',
     }
 
     en = EnglishUS
